@@ -41,9 +41,12 @@
             >
               Only 50 Spots Available
             </h3>
-            <a class="btn btn-outline-secondary btn-lg py-3 px-5" href="#"
-              >REGISTER NOW!</a
+            <router-link
+              class="btn btn-outline-secondary btn-lg py-3 px-5"
+              to="/tickets"
             >
+              REGISTER NOW!
+            </router-link>
           </div>
         </div>
       </div>

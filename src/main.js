@@ -5,8 +5,9 @@
 import Vue from "vue";
 import App from "./App";
 import VueRouter from "vue-router";
-//import the hello component
+//import the components
 import Main from "./components/Main";
+import Tickets from "./components/Tickets";
 
 Vue.config.productionTip = false;
 
@@ -32,6 +33,11 @@ const routes = [
         }
       ]
     }
+  },
+  {
+    path: "/tickets",
+    name: "Tickets",
+    component: Tickets
   }
 ];
 
